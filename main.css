@@ -1,0 +1,138 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo-container {
+  margin: auto;
+  width: 334px;
+  margin-top: -12px;
+}
+
+.logo-container>img {
+  width: 334px;
+}
+
+main {}
+
+.paper-container {
+ margin:auto; 
+ width: 94%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  margin-top: -15px;
+}
+
+.paper-container>.wallpaper {
+  display: inline-block;
+  scroll-snap-align: start;
+  scroll-snap-align: center;
+}
+
+
+
+.wallpaper>a>button {
+  display: none;
+  
+}
+
+.wallpaper>img {
+  width: 100%;
+  object-fit: cover;
+  height: 65%;
+  border-radius: 9px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.googleplay {
+  float: left;
+}
+
+.jacobyb {
+  float: right;
+  margin-right: 27px;
+  margin-bottom: 11px;
+}
+
+.color-options {
+  background-color: white;
+  padding-top: 1px;
+  margin-bottom: 13px;
+}
+
+.color-options>div {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.color-options>div>button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: inline-block;
+  margin-left: 12px;
+  transition: 0.3s ease;
+  border-radius:7px;
+}
+
+.color-options>div>button:focus {
+
+  outline: none;
+  width: 75px;
+  height: 75px;
+ 
+
+
+}
+
+.color-options>p {
+  width: 100%;
+  text-align: center;
+}
+
+.red-btn {
+  background-color: #FF5252;
+}
+
+.orange-btn {
+  background-color: #FFC552;
+}
+
+.yellow-btn {
+  background-color: #FFFF52;
+}
+
+.green-btn {
+  background-color: #52FF58;
+}
+
+.blue-btn {
+  background-color: #5275FF;
+}
+
+.purple-btn {
+  background-color: #7952FF;
+}
+
+.black-btn {
+  background-color: #000000;
+}
+
+.white-btn {
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.grey-btn {
+  background-color: #9C9C9C;
+}

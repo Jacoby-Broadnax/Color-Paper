@@ -1,0 +1,525 @@
+<html>
+
+<head>
+    <title>Color Paper</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="logo-container"><img src="Branding/Color%20Paper.svg"></div>
+    </div>
+
+    <main>
+
+        <div class="paper-container">
+            <div class="wallpaper green"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="Wallpaper Image"></div>
+
+
+            <div class="wallpaper black"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="https://wallpaperplay.com/walls/full/f/3/e/121431.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper black"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="https://i.pinimg.com/originals/3b/1e/3b/3b1e3b7abecd697bf8af2cb40cde69b3.png" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper blue"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://hdqwalls.com/wallpapers/space-minimalism-hd-4k.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper black"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://eskipaper.com/images/gaming-wallpapers-4.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper yellow"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://avante.biz/wp-content/uploads/Wallpaper-Yellow/Wallpaper-Yellow-029.jpg" alt="Wallpaper Image"></div>
+
+
+            <div class="wallpaper blue"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="https://wallpapertag.com/wallpaper/full/8/b/1/262663-4k-gaming-wallpapers-1920x1080-photo.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper blue"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="https://wallpaperset.com/w/full/5/6/6/211780.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper red"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="https://flipwallpapers.com/wallpapers/red-abstract-hd-wallpapers-For-desktop-Wallpaper.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper blue"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="https://www.technocrazed.com/wp-content/uploads/2015/12/Landscape-wallpaper-11.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper yellow"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://doanarae.com/doanarae/9172-yellow-wallpaper-short-story-pdf.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper red"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://getwallpapers.com/wallpaper/full/d/a/f/203645.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper red"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://pavbca.com/walldb/original/1/e/6/387622.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper blue"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://getwallpapers.com/wallpaper/full/4/1/9/533728.jpg" alt="Wallpaper Image"></div>
+
+            <div class="wallpaper orange"><a href="{{Download Link}}" download><button>Download</button></a><img loading="lazy" src="http://eskipaper.com/images/orange-wallpaper-11.jpg" alt="Wallpaper Image"></div>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        <div class="color-options">
+            <p>Pick A Color Below</p>
+            <div><button class="red-btn" onclick="red();vibrate()"></button><button onclick="orange()" class="orange-btn"></button><button onclick="yellow()" class="yellow-btn"></button><button onclick="green()" class="green-btn"></button><button onclick="blue()" class="blue-btn"></button>
+                <button onclick="purple()" class="purple-btn"></button><button onclick="black()" class="black-btn"></button><button onclick="white()" class="white-btn"></button><button class="grey-btn"></button></div>
+        </div>
+
+        <a href=""><img class="googleplay" src="Assets/Rate%20On%20Google%20Play.svg"></a><a href=""><img class="jacobyb" src="Assets/By%20Jacoby%20Broadnax.svg"></a>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        function red() {
+
+
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[o].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "none";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "none";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "none";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "none";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "none";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "none";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "inline-block";
+
+            }
+
+
+        }
+
+        function orange() {
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[o].style.display = "inline-block";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "none";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "none";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "none";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "none";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "none";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "none";
+
+            }
+
+
+        }
+
+        function yellow() {
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[o].style.display = "none";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "inline-block";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "none";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "none";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "none";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "none";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "none";
+
+            }
+        }
+
+        function green() {
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[o].style.display = "none";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "none";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "inline-block";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "none";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "none";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "none";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "none";
+
+            }
+        }
+
+        function blue() {
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[0].style.display = "none";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "none";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "none";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "inline-block";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "none";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "none";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "none";
+
+            }
+        }
+
+        function purple() {
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[0].style.display = "none";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "none";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "none";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "none";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "inline-block";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "none";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "none";
+
+            }
+        }
+
+        function black() {
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[0].style.display = "none";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "none";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "none";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "none";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "none";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "inline-block";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "none";
+
+            }
+        }
+
+        function white() {
+            var orange = document.querySelectorAll(".orange");
+            var o;
+            for (o = 0; o < orange.length; o++) {
+                orange[0].style.display = "none";
+
+            }
+
+            var red = document.querySelectorAll(".red");
+            var r;
+            for (r = 0; r < red.length; r++) {
+                red[r].style.display = "none";
+
+            }
+
+            var yellow = document.querySelectorAll(".yellow");
+            var y;
+            for (y = 0; y < yellow.length; y++) {
+                yellow[y].style.display = "none";
+
+            }
+            var green = document.querySelectorAll(".green");
+            var g;
+            for (g = 0; g < green.length; g++) {
+                green[g].style.display = "none";
+
+            }
+            var blue = document.querySelectorAll(".blue");
+            var b;
+            for (b = 0; b < blue.length; b++) {
+                blue[b].style.display = "none";
+
+            }
+
+            var purple = document.querySelectorAll(".purple");
+            var p;
+            for (p = 0; p < purple.length; p++) {
+                purple[p].style.display = "none";
+
+            }
+
+            var black = document.querySelectorAll(".black");
+            var bl;
+            for (bl = 0; bl < black.length; bl++) {
+                black[bl].style.display = "none";
+
+            }
+
+            var white = document.querySelectorAll(".white");
+            var w;
+            for (w = 0; w < white.length; w++) {
+                white[w].style.display = "inline-block";
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
